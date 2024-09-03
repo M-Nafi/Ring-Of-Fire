@@ -1,0 +1,12 @@
+.start-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #404040;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  background-image: url("./../../assets/bg1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
