@@ -28,10 +28,13 @@ export class GameComponent {
     if (!this.pickCardAnimation) {
       this.currentCard = this.game.stack.pop() || '';
       this.pickCardAnimation = true;
-
+      
+      console.log('New card: ' + this.currentCard);
+      console.log('Game is', this.game);
       setTimeout(() => {
+        this.game.playedCard.push(this.currentCard);
         this.pickCardAnimation = false;
-      }, 1500);
+      }, 1000);
     }
   }
   
