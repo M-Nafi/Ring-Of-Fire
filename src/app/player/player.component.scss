@@ -8,11 +8,16 @@
         font-size: 32px;
         margin-left: 16px; 
     }   
-    background-color: #69f0ae;
+    background-color: rgba(172, 214, 179, 0.6);
     img {
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         object-fit: cover;
         border-radius: 100%;
     }
+}
+
+.player-active {
+    background-color: #69f0ae;
+   
 }
